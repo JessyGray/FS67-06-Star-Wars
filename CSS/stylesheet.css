@@ -72,7 +72,7 @@ nav li {
 .right img {
     float: left;
     width: 32%;
-    margin: 0  0  1%  1%;
+    margin: 0 0 1% 1%;
 }
 
 .right h2 {
@@ -88,9 +88,30 @@ nav li {
     text-align: justify;
 }
 
+.round-bottom-left {
+    border-radius: 0 0 0 16px;
+}
+
 footer {
     clear: both;
     text-align: center;
     padding: 0.8em;
     border-radius: 0 0 16px 16px;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid #ffc500;
+    background-color: rgba(204, 3, 35, 0.5);
+    font-size: 1rem;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 0.1em;
+}
+
+footer>.button {
+    position: absolute top: 40%;
+    left: 25%;
+    margin: 0.5em;
 }
